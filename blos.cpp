@@ -248,8 +248,8 @@ int main(){
     }
     int um=1;
     for(int i=1; i<m+1; i++){
-        dpr[0][i] = -7*um;
-        dpr[i][0] = -7*um;
+        dpr[0][i] = gap_penalty*um;
+        dpr[i][0] = gap_penalty*um;
         um++;
       //  cout << dpr[i][0] << endl;
     }
